@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="script.js" type="text/javascript" defer></script>
 </head>
 <body>
-
+  <h1>Bart Simpson's Sentences</h1>
+  <form>
+    <label for="sentence">Enter a sentence:</label>
+    <br>
+    <input type="text" name="sentence" id="sentence">
+    <br>
+    <label for="numRepeats">How many times?</label>
+    <br>
+    <input type="number" name="numRepeats" id="numRepeats">
+    <br>
+    <input type="button" value="Write Sentences" id="btnShow">
+    <br>
+  </form>
+  <div id="results"></div>
 </body>
 </html>
